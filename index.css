@@ -1,0 +1,174 @@
+body {
+    background-color: #ccc
+}
+
+nav {
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5px;
+    border: 6px solid black;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    display: flex;
+    padding: 20px;
+}
+
+.nav-links a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    transform: scale(1.3, 2);
+}
+
+.container-about {
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+.about {
+    text-align: center;
+}
+
+#add-new-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    margin: 35px 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+.lit-section {
+    margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.for-book-add {
+    list-style: none;
+    padding: 0;
+}
+
+.for-book-add li {
+    margin-bottom: 10px;
+}
+
+.for-book-add input[type="text"] {
+    width: 40%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.for-summit {
+    background-color: #8b8f8b;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.for-summit:hover {
+    background-color: #535353;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 5px solid black;
+}
+
+h3 {
+    text-align: center;
+}
+
+table th,
+table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #3b3b3b;
+    color: white;
+}
+
+
+
+table td:last-child {
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: hsl(210deg 1% 58%);
+}
+
+.remove-button {
+    background-color: #000;
+    color: #fff;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #d32f2f;
+}
+
+.dateandtime {
+    color: rgb(51 51 51);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    float: right;
+    padding-top: 10px;
+}
+
+#no-books-message {
+    width: 200px;
+    line-height: 25px;
+    padding: 10px;
+    color: rgb(0 0 0);
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    display: none;
+}
+
+@media (width >= 768px) {
+    .container {
+        background: none;
+        margin: 5% 35%;
+    }
+}
