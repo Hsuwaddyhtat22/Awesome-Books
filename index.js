@@ -37,7 +37,6 @@ aboutLink.addEventListener('click', () => {
     displaySection(aboutSection);
 });
 
-// Function to display a section and hide the others
 const displaySection = (section) => {
     const sections = [listSection, addNewSection, aboutSection];
     sections.forEach((s) => {
@@ -48,3 +47,11 @@ const displaySection = (section) => {
         }
     });
 };
+
+// Hide sections on page load
+window.addEventListener('DOMContentLoaded', () => {
+    const sections = [listSection, addNewSection, aboutSection];
+    sections.forEach((s) => {
+        s.style.display = 'none';
+    });
+});
