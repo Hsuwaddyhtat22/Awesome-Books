@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome Books ES6</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Awesome Books
+            </div>
+            <ul class="nav-links">
+                <li id="list-link">
+                    <a href="#">List</a>
+                </li>
+                <li id="add-new-link">
+                    <a href="#">Add new</a>
+                </li>
+                <li id="about-link">
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="dateandtime"></div>
+    <section id="list-section" class="for-awesome">
+        <div class="container">
+            <h3>All Awesome Books</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Delete section</th>
+                    </tr>
+                </thead>
+                <tbody id="book-list"></tbody>
+                <p id="no-books-message">No Added Book List...</p>
+            </table>
+        </div>
+    </section>
+
+    <section id="add-new-section" class="for-awe">
+        <div class="container">
+            <h2 class="new-book">Add a new Book</h2>
+            <form id="add-book-form">
+                <ul class="for-book-add">
+                    <li>
+                        <input type="text" id="title" required placeholder="Title">
+                    </li>
+                    <li>
+                        <input type="text" id="author" required placeholder="Author">
+                    </li>
+                    <li>
+                        <button type="submit" class="for-summit">Add</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+
+    <section id="about-section">
+        <div class="container-about">
+            <h2 class="about">About Awesome Books</h2>
+            <p>This is an awesome book application built with JavaScript.</p>
+            <p>Do you have any questions or you just want to say "hello "? You can reach out to us!</p>
+            <ul>
+                <li>E-mail:hsuwady2001@gmail.com</li>
+                <li>Phone number:+959758726769</li>
+                <li>Office address: Thirinandar 22 street,13 ward/Yangon-Myanmar</li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
