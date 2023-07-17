@@ -1,4 +1,3 @@
-//const Books = [];
 const listLink = document.querySelector('#list-link');
 const addNewLink = document.querySelector('#add-new-link');
 const aboutLink = document.querySelector('#about-link');
