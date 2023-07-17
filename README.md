@@ -26,9 +26,9 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 [PIANO CONCERT PROJECT] <a name="about-project"></a>
+# 📖 [Awesome Book PROJECT] <a name="about-project"></a>
 
-My website design inspired by Behance.I makes more styling for better view and add javascript to fast.
+In this awesome book project,design is inspired(Microverse).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,8 +49,8 @@ My website design inspired by Behance.I makes more styling for better view and a
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- **RWD for any devices**
-- **Use JavaScript to manipulate  elements**
+- **modules(ES6)**
+- **Use luxon for date and time**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
